@@ -15,7 +15,7 @@ public class Main {
 
         BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
         customerManager.Save(new Customer(1,"Muhammet Sait","Akgüneş",
-                1999,69274167024L));
+                1999,12345678910L));
 
 
         BaseCustomerManager neroManager = new NeroCustomerManager();
